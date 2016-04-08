@@ -1,0 +1,74 @@
+// CarRental WP Plugin - change log // 
+
+== 2014-12-29 == LOCKED
+v 1.4.2.
+ - car inventory (branch overbooking) feature now works
+
+== 2014-12-22 == LOCKED
+v 1.4.1.
+ - Seasonal pricing now works -> pricing is assigned according to starting date, priority and days active
+ - This version includes all updates since 1.3.3
+
+
+== 2014-12-12 == LOCKED
+v 1.4.0.
+ - You can now sort by price and name in any language version (our cars page)
+ - Price slider in filters now works on touch (mobile devices) will automatically recalculate values when your client changes currency
+ - Classcode a RateID fields added to make plugin compatible with TSDweb car rental software
+ - Fixed jQuery no conflict issue-> plugin now works with other plugins that use this library
+ - Improved update mechanism. Update now supports creation of new directories.
+
+== 2014-12-05 == LOCKED
+v 1.3.9.
+ - Time selection now works ok even if page reloads (previously, if you selected date and time and reloaded page, time would show unrestricted ranges which would result in “not available” pricing if time selected out of allowed time range)
+ - PayPal payments now work with amounts over 1000 (previously, anything over 1000 was set to 1, 2, etc.)
+ - Cars can now display more than one picture
+ - Categories can now be shown as items in menu (a new page is created automatically when you create a category letting you assign it to menu)
+ - You can now insert booking form anywhere on the page using a shortcode; you can set your own width: [carrental_book_box width="300"]
+ - A new widget area (full width) has been added to homepage that lets insert full width posts)
+ - Added security deposit option to payments plugin
+ - You can now switch off displaying languages on the front end while you are editing them in the back end 
+ - When you finish payment via Paypal, the plugin will now take you back your page afterwards
+ - In settings, you now choose who to send booking confirmation email to: admin/client/both/none
+ - Confirmation emails will now display correctly with line breaks (previously only showed on one line)
+ - Even if you do not change your default booking confirmation email, the email will still be sent (previously did not get sent)
+ - With this version we also released a new footer plugin that lets you change your footer easily and is compatible with our rental plugin
+
+== 2014-11-25 == LOCKED
+v 1.3.8.
+- fixed e-mail to customer and admin
+- manage booking page - check empty fields and validity of order number and e-mail
+- you can re-enter API key in Settings
+
+== 2014-11-13 == LOCKED
+v 1.3.7.
+- added comments text field in bookings (for internal usage)
+- added possibility to delete logo or homepage background picture
+- if there is one location only, it’s automatically pre-selected
+- translatable fleet description
+- possibility to have free items in Extras
+- company e-mail gets copy of reservation too
+- show more info (transmission, deposit, free miles/km)
+- list of users for newsletter
+
+
+= 2014-10-29 == LOCKED
+v 1.3.6
+- car prices are now rounded correctly (up) if clients books more than multiples of 24hrs- prices round up to the next full day by default
+- possibility to delete/change branch picture
+- it is now possible to successfully upload your own logo to the theme
+
+= 2014-10-23 == LOCKED
+v 1.3.5
+- automatic e-mails sending does not work-> fixed using the wp-mail function 
+- possibility to select whether to show prices with or without VAT in settings added
+- sort by price or name on top right of “choose car screen” now works
+
+== 2014-10-16 == LOCKED
+v. 1.3.4
+- car description visible on the frontend
+- infinity of the Pricing scheme (set 0 or leave empty)
+- batch copy/delete in fleet, extras, branches, pricing schemes and booking
+- float prices
+- currency/language selection fix
+- fix position of euro symbol
